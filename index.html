@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haldwani Sports — Quality Sportswear & Equipment</title>
+  <meta name="description" content="Haldwani Sports — Quality Sportswear & Equipment at Reasonable Prices. Trusted by 1,000+ customers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  NAVBAR                                    -->
+  <!-- ══════════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+
+      <a href="#home" class="nav-logo">
+        <span class="logo-mark">HS</span>
+        <span class="logo-text">HALDWANI<br><em>SPORTS</em></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home"       class="nav-link active">Home</a>
+        <a href="#categories" class="nav-link">Categories</a>
+        <a href="#products"   class="nav-link">Products</a>
+        <a href="#about"      class="nav-link">About</a>
+        <a href="#contact"    class="nav-link">Contact</a>
+        <a href="#products"   class="nav-cta-btn">Shop Now</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  HERO                                      -->
+  <!-- ══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1600&auto=format&fit=crop&q=80"
+        alt="Athlete in action"
+        class="hero-img"
+        loading="eager"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal-up delay-1">
+        <span class="badge-dot"></span>
+        Trusted by 1,000+ Customers
+      </div>
+
+      <h1 class="hero-headline reveal-up delay-2">
+        GEAR UP.<br>
+        <span class="accent-text">PLAY HARD.</span><br>
+        WIN MORE.
+      </h1>
+
+      <p class="hero-tagline reveal-up delay-3">
+        Quality Sportswear &amp; Equipment at Reasonable Prices
+      </p>
+
+      <div class="hero-actions reveal-up delay-4">
+        <a href="#products"   class="btn btn-primary">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#categories" class="btn btn-ghost">Explore Categories</a>
+      </div>
+
+      <div class="hero-scroll reveal-up delay-5">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+
+    <!-- Floating stat chips -->
+    <div class="hero-stat hero-stat--1 reveal-up delay-3">
+      <strong>1K+</strong><span>Customers</span>
+    </div>
+    <div class="hero-stat hero-stat--2 reveal-up delay-4">
+      <strong>500+</strong><span>Products</span>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  CATEGORIES                                -->
+  <!-- ══════════════════════════════════════════ -->
+  <section class="section categories-section" id="categories">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">SHOP BY<br><span>CATEGORY</span></h2>
+      </div>
+
+      <div class="categories-grid">
+
+        <div class="cat-card reveal-up delay-1" style="--bg:url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&auto=format&fit=crop&q=75')">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <i class="fa-solid fa-dumbbell cat-icon"></i>
+            <h3>Sports<br>Equipment</h3>
+            <span class="cat-link">Browse <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="cat-card reveal-up delay-2" style="--bg:url('https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&auto=format&fit=crop&q=75')">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <i class="fa-solid fa-baseball cat-icon"></i>
+            <h3>Cricket</h3>
+            <span class="cat-link">Browse <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="cat-card reveal-up delay-3" style="--bg:url('https://images.unsplash.com/photo-1553778263-73a83bab9b0c?w=600&auto=format&fit=crop&q=75')">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <i class="fa-solid fa-futbol cat-icon"></i>
+            <h3>Football</h3>
+            <span class="cat-link">Browse <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="cat-card reveal-up delay-4" style="--bg:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=75')">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <i class="fa-solid fa-fire cat-icon"></i>
+            <h3>Gym</h3>
+            <span class="cat-link">Browse <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="cat-card reveal-up delay-2" style="--bg:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=75')">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <i class="fa-solid fa-shoe-prints cat-icon"></i>
+            <h3>Shoes</h3>
+            <span class="cat-link">Browse <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="cat-card reveal-up delay-3" style="--bg:url('https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&auto=format&fit=crop&q=75')">
+          <div class="cat-overlay"></div>
+          <div class="cat-content">
+            <i class="fa-solid fa-shirt cat-icon"></i>
+            <h3>Garments</h3>
+            <span class="cat-link">Browse <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  WHY CHOOSE US                             -->
+  <!-- ══════════════════════════════════════════ -->
+  <section class="section why-section" id="about">
+    <div class="container">
+
+      <div class="why-layout">
+
+        <div class="why-left reveal-left">
+          <span class="section-label">Our Promise</span>
+          <h2 class="section-title">WHY CHOOSE<br><span>HALDWANI<br>SPORTS?</span></h2>
+          <p class="why-desc">
+            We've been equipping athletes and sports enthusiasts across Uttarakhand with
+            premium quality gear since day one — all at prices that respect your budget.
+          </p>
+          <a href="#products" class="btn btn-primary">Shop the Collection <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="why-right">
+
+          <div class="why-card reveal-up delay-1">
+            <div class="why-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="why-text">
+              <h3>Quality Products</h3>
+              <p>Every item is carefully sourced and quality-checked to meet the demands of serious athletes.</p>
+            </div>
+          </div>
+
+          <div class="why-card reveal-up delay-2">
+            <div class="why-icon">
+              <i class="fa-solid fa-tag"></i>
+            </div>
+            <div class="why-text">
+              <h3>Reasonable Prices</h3>
+              <p>Premium gear shouldn't break the bank. We offer the best value without compromising quality.</p>
+            </div>
+          </div>
+
+          <div class="why-card reveal-up delay-3">
+            <div class="why-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="why-text">
+              <h3>Trusted by 1,000+ Customers</h3>
+              <p>A growing community of athletes, coaches, and fitness enthusiasts who rely on us.</p>
+            </div>
+          </div>
+
+          <div class="why-card reveal-up delay-4">
+            <div class="why-icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="why-text">
+              <h3>Latest Collections</h3>
+              <p>Stay ahead of the game with the freshest arrivals from top sports brands and equipment makers.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  FEATURED PRODUCTS                         -->
+  <!-- ══════════════════════════════════════════ -->
+  <section class="section products-section" id="products">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <span class="section-label">New Arrivals</span>
+        <h2 class="section-title">FEATURED<br><span>PRODUCTS</span></h2>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="product-filters reveal-up delay-1">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="cricket">Cricket</button>
+        <button class="filter-btn" data-filter="football">Football</button>
+        <button class="filter-btn" data-filter="gym">Gym</button>
+        <button class="filter-btn" data-filter="shoes">Shoes</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+
+        <!-- Product 1 -->
+        <div class="product-card reveal-up delay-1" data-category="cricket">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=500&auto=format&fit=crop&q=80" alt="Cricket Bat" loading="lazy" />
+            <div class="product-badge">New</div>
+            <div class="product-actions">
+              <button class="quick-view-btn" onclick="openModal(this)" data-name="Pro Cricket Bat" data-price="₹2,499" data-img="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=800&auto=format&fit=crop&q=80" data-desc="Premium English willow bat crafted for serious cricketers. Light weight with excellent balance for power shots.">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Cricket</span>
+            <h3 class="product-name">Pro Cricket Bat</h3>
+            <div class="product-footer">
+              <span class="product-price">₹2,499</span>
+              <button class="add-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card reveal-up delay-2" data-category="football">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=500&auto=format&fit=crop&q=80" alt="Football" loading="lazy" />
+            <div class="product-badge new-badge">Hot</div>
+            <div class="product-actions">
+              <button class="quick-view-btn" onclick="openModal(this)" data-name="Match Football" data-price="₹1,299" data-img="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop&q=80" data-desc="FIFA-standard match ball with superior aerodynamics and consistent flight trajectory for competitive play.">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Football</span>
+            <h3 class="product-name">Match Football</h3>
+            <div class="product-footer">
+              <span class="product-price">₹1,299</span>
+              <button class="add-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card reveal-up delay-3" data-category="gym">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&auto=format&fit=crop&q=80" alt="Gym Gloves" loading="lazy" />
+            <div class="product-actions">
+              <button class="quick-view-btn" onclick="openModal(this)" data-name="Pro Gym Gloves" data-price="₹899" data-img="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&auto=format&fit=crop&q=80" data-desc="Heavy-duty training gloves with padded palms and wrist support for maximum performance in the gym.">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Gym</span>
+            <h3 class="product-name">Pro Gym Gloves</h3>
+            <div class="product-footer">
+              <span class="product-price">₹899</span>
+              <button class="add-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card reveal-up delay-4" data-category="shoes">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=80" alt="Running Shoes" loading="lazy" />
+            <div class="product-badge">Sale</div>
+            <div class="product-actions">
+              <button class="quick-view-btn" onclick="openModal(this)" data-name="Sprint Running Shoes" data-price="₹3,799" data-img="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80" data-desc="Lightweight performance running shoes with responsive cushioning and breathable mesh upper for long-distance comfort.">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Shoes</span>
+            <h3 class="product-name">Sprint Running Shoes</h3>
+            <div class="product-footer">
+              <span class="product-price">₹3,799</span>
+              <button class="add-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card reveal-up delay-2" data-category="cricket">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1593341646782-e0b495cff86d?w=500&auto=format&fit=crop&q=80" alt="Cricket Helmet" loading="lazy" />
+            <div class="product-actions">
+              <button class="quick-view-btn" onclick="openModal(this)" data-name="Cricket Helmet Pro" data-price="₹1,849" data-img="https://images.unsplash.com/photo-1593341646782-e0b495cff86d?w=800&auto=format&fit=crop&q=80" data-desc="Safety-certified helmet with adjustable fit, ventilation channels, and a durable grill for complete protection.">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Cricket</span>
+            <h3 class="product-name">Cricket Helmet Pro</h3>
+            <div class="product-footer">
+              <span class="product-price">₹1,849</span>
+              <button class="add-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card reveal-up delay-3" data-category="gym">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=500&auto=format&fit=crop&q=80" alt="Resistance Bands" loading="lazy" />
+            <div class="product-badge new-badge">New</div>
+            <div class="product-actions">
+              <button class="quick-view-btn" onclick="openModal(this)" data-name="Resistance Band Set" data-price="₹699" data-img="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&auto=format&fit=crop&q=80" data-desc="Set of 5 resistance bands with varying tension levels for full-body strength and flexibility training.">
+                <i class="fa-solid fa-eye"></i> Quick View
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Gym</span>
+            <h3 class="product-name">Resistance Band Set</h3>
+            <div class="product-footer">
+              <span class="product-price">₹699</span>
+              <button class="add-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="products-cta reveal-up">
+        <a href="#contact" class="btn btn-outline-dark">View All Products <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  STATS                                     -->
+  <!-- ══════════════════════════════════════════ -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+
+        <div class="stat-item reveal-up delay-1">
+          <strong class="stat-num" data-target="1000">0</strong><span class="stat-suffix">+</span>
+          <span class="stat-label">Happy Customers</span>
+        </div>
+
+        <div class="stat-divider"></div>
+
+        <div class="stat-item reveal-up delay-2">
+          <strong class="stat-num" data-target="500">0</strong><span class="stat-suffix">+</span>
+          <span class="stat-label">Products Available</span>
+        </div>
+
+        <div class="stat-divider"></div>
+
+        <div class="stat-item reveal-up delay-3">
+          <strong class="stat-num" data-target="5">0</strong><span class="stat-suffix">+</span>
+          <span class="stat-label">Years of Trust</span>
+        </div>
+
+        <div class="stat-divider"></div>
+
+        <div class="stat-item reveal-up delay-4">
+          <strong class="stat-num" data-target="6">0</strong>
+          <span class="stat-label">Sports Categories</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  TESTIMONIALS                              -->
+  <!-- ══════════════════════════════════════════ -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <span class="section-label">What They Say</span>
+        <h2 class="section-title">CUSTOMER<br><span>REVIEWS</span></h2>
+      </div>
+
+      <div class="testimonials-slider reveal-up delay-1" id="testimonialsSlider">
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <div class="testi-card">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <blockquote>"Bought a cricket bat and gloves from Haldwani Sports — the quality is outstanding! Much better than I expected for the price. Definitely coming back."</blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar">RK</div>
+              <div>
+                <strong>Rahul Kumar</strong>
+                <span>Haldwani, Uttarakhand</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <blockquote>"Got my football boots and jersey here. The pricing is honestly unbeatable and the stuff is premium. My whole team shops here now!"</blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar">AS</div>
+              <div>
+                <strong>Ankit Sharma</strong>
+                <span>Nainital, Uttarakhand</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <blockquote>"Gym equipment is top-notch. The resistance bands and gloves I purchased are still going strong after months of daily use. Great store!"</blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar">PM</div>
+              <div>
+                <strong>Priya Mehta</strong>
+                <span>Rudrapur, Uttarakhand</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <blockquote>"Been a customer for 3 years. Never disappointed. The staff is knowledgeable and they always have the latest collections. Highly recommended!"</blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar">VB</div>
+              <div>
+                <strong>Vijay Bisht</strong>
+                <span>Ramnagar, Uttarakhand</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Slider controls -->
+      <div class="slider-controls reveal-up delay-2">
+        <button class="slider-btn" id="prevBtn" aria-label="Previous">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <div class="slider-dots" id="sliderDots"></div>
+        <button class="slider-btn" id="nextBtn" aria-label="Next">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  CTA BANNER                                -->
+  <!-- ══════════════════════════════════════════ -->
+  <section class="cta-banner">
+    <div class="cta-bg">
+      <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1600&auto=format&fit=crop&q=75" alt="Sports CTA" loading="lazy" />
+      <div class="cta-overlay"></div>
+    </div>
+    <div class="cta-content reveal-up">
+      <span class="section-label light-label">Limited Time</span>
+      <h2>READY TO ELEVATE<br>YOUR GAME?</h2>
+      <p>Explore our full range of premium sports gear and equipment — all at prices built for champions.</p>
+      <a href="#products" class="btn btn-white">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  FOOTER                                    -->
+  <!-- ══════════════════════════════════════════ -->
+  <footer class="footer" id="contact">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- Brand -->
+          <div class="footer-col footer-brand">
+            <a href="#home" class="nav-logo footer-logo">
+              <span class="logo-mark">HS</span>
+              <span class="logo-text">HALDWANI<br><em>SPORTS</em></span>
+            </a>
+            <p>Quality Sportswear &amp; Equipment at Reasonable Prices. Serving athletes and fitness enthusiasts across Uttarakhand.</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"  class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Twitter"   class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" aria-label="YouTube"   class="social-link"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#categories">Categories</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+            </ul>
+          </div>
+
+          <!-- Categories -->
+          <div class="footer-col">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#categories">Sports Equipment</a></li>
+              <li><a href="#categories">Cricket</a></li>
+              <li><a href="#categories">Football</a></li>
+              <li><a href="#categories">Gym</a></li>
+              <li><a href="#categories">Shoes</a></li>
+              <li><a href="#categories">Garments</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul class="contact-list">
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Haldwani, Nainital District,<br>Uttarakhand — 263139</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+919876543210">+91 98765 43210</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:info@haldwanisports.com">info@haldwanisports.com</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i>
+                <span>Mon–Sat: 9:00 AM – 8:00 PM</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Haldwani Sports. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ══════════════════════════════════════════ -->
+  <!--  QUICK VIEW MODAL                          -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal" id="productModal">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-img-wrap">
+        <img src="" alt="" id="modalImg" />
+      </div>
+      <div class="modal-body">
+        <span class="modal-cat" id="modalCat">Category</span>
+        <h2 class="modal-name" id="modalName">Product Name</h2>
+        <p class="modal-desc" id="modalDesc">Product description goes here.</p>
+        <div class="modal-price-row">
+          <span class="modal-price" id="modalPrice">₹0</span>
+          <button class="btn btn-primary">Add to Cart <i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
